@@ -1,0 +1,24 @@
+{
+  "name": "social_media_api",
+  "version": "1.0.0",
+  "description": "Social Media API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JustindHolderman/Social_Media_API.git"
+  },
+  "keywords": [
+    "API",
+    "MongoDB"
+  ],
+  "author": "Jusitn Holderman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustindHolderman/Social_Media_API/issues"
+  },
+  "homepage": "https://github.com/JustindHolderman/Social_Media_API#readme"
+}
