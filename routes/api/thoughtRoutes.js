@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Thought, User } = require('../../models');
+const { Thought, User } = require('../../models/index');
 const { Types } = require('mongoose');
 
     // /api/thoughts/
