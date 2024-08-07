@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/JustindHolderman/Social_Media_API/issues"
   },
-  "homepage": "https://github.com/JustindHolderman/Social_Media_API#readme"
+  "homepage": "https://github.com/JustindHolderman/Social_Media_API#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2"
+  }
 }
