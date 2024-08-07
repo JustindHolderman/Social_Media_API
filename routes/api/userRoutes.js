@@ -3,6 +3,7 @@ const { User, Thought } = require('../../models/index');
     
 
         // get all users
+        // api/users/
     router
         .route('/')
         .get(async (req, res) => {
@@ -27,6 +28,7 @@ const { User, Thought } = require('../../models/index');
         });
         
         // get single user by id
+        // api/users/:userId
         router
         .route('/:userId')
         .get(async (req, res) => {
@@ -73,7 +75,7 @@ const { User, Thought } = require('../../models/index');
             };
         });
             // add friend to user friends array
-
+        // /api/users/:userId/friends/:friendId
         router
         .route('/:userId/friends/:friendId')
         .post(async (req, res) => {
@@ -92,6 +94,7 @@ const { User, Thought } = require('../../models/index');
             };
         })
         // delete friend from user friends array
+        // /api/users/:userId/friends/:friendId
         .delete(async (req, res) => {
             const userId = req.params.userId;
             const friendId = req.params.friendId;

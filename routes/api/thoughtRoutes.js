@@ -90,6 +90,25 @@ const { Types } = require('mongoose');
                 console.error(err);
                 res.status(500).json(err);
             };
-        })
+        });
+
+    // /api/thoughts/:thoughtId/reactions/:reactionId
+    router
+        .route('/:thoughtId/reactions/:reactionId')
+        .delete(async (req, res) => {
+            try {
+                const deleteReaction = await Thought.updateOne(
+                    { _id: req.params.thoughtId },
+                    { $pull: { reactions: { reactionId: req.params.reactionId }}},
+                    { new: true }
+                );
+                res.json(deleteReaction);
+            }
+            catch (err) {
+                console.error(err);
+                res.status(500).json(err);
+            };
+        });
+        
 
     module.exports = router;
