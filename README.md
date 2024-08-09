@@ -34,7 +34,7 @@
 
 
    >   Walkthrough videos:
-
+> All Routes except ADD/DELETE Friend.
    >   https://drive.google.com/file/d/1jkPplHp19iWqEuVJp_W8teTCFb_ixV41/view?usp=sharingLinks to an external site.
-
+>ADD/DELETE Friend routes.
   >  https://drive.google.com/file/d/123pG8x54fR4Twu1frorVmxAKqKxND0_4/view
